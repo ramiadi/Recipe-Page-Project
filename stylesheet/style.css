@@ -1,0 +1,42 @@
+@media (min-width: 768px) {
+  .recipe-box img {
+    width: 80%;
+  }
+}
+
+@media (max-width: 767px) {
+  .recipe-box img {
+    width: 100%;
+  }
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.recipe-box {
+  background-color: hsl(0, 0%, 100%);
+  width: 50%;
+  text-align: left;
+  padding: 2em;
+  margin: 6em;
+}
+.recipe-box img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
