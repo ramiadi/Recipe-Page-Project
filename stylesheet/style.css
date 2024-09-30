@@ -33,6 +33,101 @@ body {
   border-radius: 10px;
 }
 
+.lil-text {
+  color: hsl(30, 10%, 34%);
+  line-height: 1.5em;
+}
+
+.preparation-box {
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 10px;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  padding: 1.25em;
+  line-height: 2em;
+}
+.preparation-box li {
+  padding-left: 1em;
+  margin-left: -0.5em;
+  font-size: 1.1em;
+}
+.preparation-box span {
+  color: hsl(332, 51%, 32%);
+  font-size: 1.3em;
+  font-weight: 700;
+  margin-left: -2em;
+}
+
+.ingredients span {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+  font-size: 1.8em;
+  margin-left: -1.5em;
+}
+.ingredients li {
+  margin-left: -1em;
+  padding-left: 1em;
+  font-size: 1.1em;
+  color: hsl(30, 10%, 34%);
+  line-height: 1.5em;
+}
+
+.instructions span {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+  font-size: 1.8em;
+  margin-left: -1.5em;
+}
+.instructions li {
+  margin-left: -1em;
+  padding-left: 1em;
+  font-size: 1.1em;
+  color: hsl(30, 10%, 34%);
+  line-height: 1.5em;
+}
+.instructions li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+
+.nutrition {
+  text-align: left;
+  margin-top: 2em;
+}
+.nutrition span {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+  font-size: 1.8em;
+  margin-bottom: 2em;
+}
+.nutrition p {
+  color: hsl(30, 10%, 34%);
+  font-size: 1em;
+  line-height: 1.5em;
+}
+.nutrition-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1.1em;
+}
+.nutrition-table td {
+  padding: 0.5em 1em;
+  color: hsl(30, 10%, 34%);
+}
+.nutrition-table td strong {
+  color: hsl(14, 45%, 36%);
+}
+.nutrition-table tr {
+  border-bottom: 1px solid hsl(30, 54%, 90%);
+}
+.nutrition-table tr:last-child {
+  border-bottom: none;
+}
+
+hr {
+  color: hsl(30, 54%, 90%);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
